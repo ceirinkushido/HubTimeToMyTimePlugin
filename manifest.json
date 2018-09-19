@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+  
+    "name": "Hub Time to My Time Plugin",
+    "description": "This extension will convert run times on r/runnerhub to your time",
+    "version": "1.0",
+  
+    "browser_action": {
+     "default_popup": "popup.html"
+    },
+    "permissions": [
+     "activeTab",
+     "tabs"
+     ]
+  }
